@@ -1,0 +1,7 @@
+ask; "What site do you want to control and open?" to sito
+if check link sito then
+    say; "Il sito {sito} is Online! i'll open immediatly..."
+    open link sito
+else
+    say; "The site {sito} doesn't respond or doesn't exist please check for errors..."
+end
